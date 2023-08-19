@@ -130,6 +130,28 @@ section h2 {
     color:#ff54c6;
 }
 
+footer {
+    width: 100%;
+    background-color: #1d1d52;
+    height: 50px;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
 @media screen and (max-width: 767px) {
 
     header .container {

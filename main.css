@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 42px;
+    background-color: #1d1d52;
+}
+
+header img {
+    max-width: 25%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+}
+
+header .container a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sobre {
+    display: grid;
+    grid-template-columns: 34% 64%;
+    column-gap: 2%;
+    margin-bottom: 50px;
+}
+
+.sobre p {
+    margin-bottom: 8px;
+}
+
+.sobre img {
+    max-width: 100%;
+}
+
+section h2 {
+    margin-bottom: 30px;
+    padding: 0 0 15px;
+    border-bottom: 2px solid #54bbff;
+    color: #1d1d52;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    column-gap: 2%;
+    max-width: 100%;
+}
+
+.produtos h3 {
+    font-size: 1.3em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.produtos article {
+    margin-bottom: 80px;
+}
+
+.box-produto img {
+    max-width: 100%;
+}
+
+.box-produto > p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box-produto .price {
+    text-align: center;
+}
+
+.box-produto .price p {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.box-produto .price strong {
+    font-size: 1.2em;
+}
+
+.box-produto button {
+    margin-top: 16px;
+    padding: 8px;
+    border-style: none;
+    border-radius: 10px;
+    background-color:#54bbff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+}
+
+.box-produto button:hover {
+    background-color:#ff54c6;
+}
+
+.box-produto a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-produto a:hover {
+    text-decoration: none;
+    color:#ff54c6;
+}
+
+@media screen and (max-width: 767px) {
+
+    header .container {
+        display: block;
+    }
+
+    header img {
+        max-width: 80%;
+        margin-left: 36px;
+    }
+
+    header ul {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    section h2 {
+        margin: 20px 0 30px;
+        padding: 0 0 15px;
+        border-bottom: 2px solid #54bbff;
+        color: #1d1d52;
+        text-align: center;
+    }
+
+    .produtos h3 {
+        font-size: 1em;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .sobre {
+        display: block;
+    }
+
+    .sobre img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .produtos {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .sobre {
+        display: block;
+    }
+
+    .sobre img {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    section h2 {
+        margin: 20px 0 30px;
+        padding: 0 0 15px;
+        border-bottom: 2px solid #54bbff;
+        color: #1d1d52;
+        text-align: center;
+    }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%;
+        max-width: 100%;
+    }
+}

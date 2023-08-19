@@ -1,20 +1,22 @@
-# EBAC_projeto2_agenda
-Projeto do curso "Profissão: Desenvolvedor Full Stack Python" - EBAC
+# Juquinha Tech Loja Virtual
+Exercício do curso "Profissão: Desenvolvedor Full Stack Python" - EBAC
 
 ###Requisitos 
   
-
-- Construa uma tabela com as colunas: nome e telefone; - OK
-- Construa um formulário para inserir nome e telefone; - OK
-- Botão type="submit" para enviar as informações inseridas no formulário para a tabela; - OK
-- Adiciona uma linha à tabela com as informações fornecidas no formulário; - OK
-
-
+- Criar um layout responsivo de uma loja virtual; - OK
+- Criar uma seção “sobre", com duas colunas, uma com a imagem da loja 
+e outra com um texto; - OK
+- Criar uma seção de produtos, com 4 produtos lado a lado, com: 
+    >Imagem do produto - OK;
+    >Nome do produto - OK;
+    >Descrição do produto - Ok;
+    >Botão para adicionar ao carrinho - OK;
+- O layout deve ser responsivo para smartphones, tablets e desktop; - OK
 
 ###Plus  
   
 Eu adicionei:  
 
-- Campo de Sobrenome separado do Nome, imaginando uma possível implementação de DB;
-- Imagem no background;
-- Rodapé com link;
+- Preço anterior do produto, estilizado;
+- Logo autoral em png no cabeçalho;
+- Rodapé;

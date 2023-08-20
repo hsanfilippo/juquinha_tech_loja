@@ -201,6 +201,10 @@ footer a:hover {
         max-width: 100%;
     }
 
+    .box-produto img {
+        width: 100%;
+    }
+
     footer {
         width: 100%;
         background-color: #1d1d52;
@@ -237,5 +241,11 @@ footer a:hover {
         grid-template-columns: repeat(2, 49%);
         column-gap: 2%;
         max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 95%;
     }
 }
